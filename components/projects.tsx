@@ -50,11 +50,12 @@ export default function Projects() {
     },
     {
       Icon: BellIcon,
-      image: "https://synny-blotto-yugurt.vercel.app/yogurtPe.png",
-      name: "Synny Blotto",
+      image:
+        "https://nft-marketplace-psi-sandy.vercel.app/_next/image?url=%2FSygnet.png&w=32&q=75",
+      name: "NFT Market place",
       description:
-        "An e-commerce app for for yogurt lover, featuring categorized products",
-      href: "/",
+        "An NFT Market place app for NFT lover, featuring NFT categorized options, auction and creators",
+      href: "https://nft-marketplace-psi-sandy.vercel.app/",
       cta: "Learn more",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
       className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
@@ -64,7 +65,7 @@ export default function Projects() {
     <div>
       <h4 className="uppercase">Projects</h4>
       <h4 className="font-semibold text-darkText text-4xl tracking-tighter">
-        Some cool projects I've built.
+        Some cool projects I have built.
       </h4>
       <BentoGrid className="lg:grid-rows-3 mt-5">
         {projects.map((project) => (
