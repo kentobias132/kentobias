@@ -30,8 +30,9 @@ export default function Experience() {
     {
       date: "Sept 2024",
       role: "Solo Developer",
-      place: "Synny Blotto",
-      image: "https://synny-blotto-yugurt.vercel.app/yogurtPe.png",
+      place: "NFT Market place",
+      image:
+        "https://nft-marketplace-psi-sandy.vercel.app/_next/image?url=%2FSygnet.png&w=32&q=75",
     },
   ];
   return (
